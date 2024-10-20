@@ -1,4 +1,4 @@
-//Decimal to Biinary
+//Decimal to Binary
 #include<iostream>
 using namespace std;
 int main(){
