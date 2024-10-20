@@ -8,9 +8,12 @@ int main()
     while(1){
     cout<<"Choose your choice"<<endl;
     cin>>num;    
-    if(num==n)
+     if(num==n)
     {
-    cout<<"Bullseye you have finished the game in" <<++i<<"turns"<<endl;
+        if(i==0)
+    cout<<"Bullseye you have finished the game in"<<" "<<++i<<" "<<"turn"<<endl;
+    else
+     cout<<"Bullseye you have finished the game in"<<" "<<i++<<" "<<"turns"<<endl;
     return 0;
     }
     if(num %2==0)
