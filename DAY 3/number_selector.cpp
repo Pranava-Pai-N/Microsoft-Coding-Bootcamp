@@ -13,7 +13,7 @@ int main()
         if(i==0)
     cout<<"Bullseye you have finished the game in"<<" "<<++i<<" "<<"turn"<<endl;
     else
-     cout<<"Bullseye you have finished the game in"<<" "<<i++<<" "<<"turns"<<endl;
+     cout<<"You have finished the game in"<<" "<<i++<<" "<<"turns"<<endl;
     return 0;
     }
     if(num %2==0)
